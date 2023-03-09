@@ -48,9 +48,18 @@ html {
 
 body {
   background-color: var(--c-default);
+  position: relative;
 }
 
-header section {
+header {
+  background-color: var(--c-default);
+  -webkit-box-shadow: 0em 1em 1em -1em rgba(153,153,153,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+header section:first-child {
   width: var(--w-full);
   display: flex;
   align-items: center;
@@ -187,13 +196,16 @@ section {
 }
 
 .searchbar {
+  width: fit-content;
   margin: 0 auto;
+  padding-bottom: var(--u-large);
 }
 
 .items {
   width: auto;
   display: inline-flex;
-  overflow: auto hidden;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   gap: var(--u-default);
   padding: var(--u-default);
 }
