@@ -1,6 +1,4 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# Dynamisch platform oba 
+# Dynamisch platform mijn oba 
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave
@@ -25,6 +23,9 @@
 ## Gebruik
 
 ## Bronnen
+[docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+https://zoeken.oba.nl/api/v1/search
+https://www.cssmatic.com/box-shadow
 
 ## Licentie
 
