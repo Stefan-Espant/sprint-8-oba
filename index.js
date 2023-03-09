@@ -24,6 +24,15 @@ app.get("/", (request, response) => {
   });
 });
 
+app.get('/book', (request, response) => {
+  let resultUrl = url + "/search/?q=boek&authorization=1e19898c87464e239192c8bfe422f280&refine=true&output=json";
+  
+  fetchJson(resultUrl).then((data) => {
+    // console.log(data)
+    response.render('book', data)
+  })
+})
+
 // Stelt het poortnummer in waar express op gaat luisteren
 app.set("port", process.env.PORT || 8000);
 

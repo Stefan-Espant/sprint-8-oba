@@ -1,11 +1,20 @@
-<%- include('./partials/head') %> 
+<%- include('./partials/head') %>
 
 <%- include('./partials/header') %>
 
 <main>
-    <section>
-        <img src=" <%= results.coverimages %> " alt="" />
-        <h1>Het boek</h1>
+    <section class="item-view>">
+        <div>
+            
+            <div>
+                <img src="<%= results[0].coverimages[0] %>" alt="" />
+            </div>
+            <div>
+                <h1><%= results[0].titles[0] %></h1>
+                <p> <%= results[0].summaries[0] %></p>
+            </div>
+        </div>
+
     </section>
 </main>
 
