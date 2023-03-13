@@ -232,7 +232,6 @@ section {
 .item-view img {
   width: 15em;
   margin-bottom: var(--u-default);
-  
 }
 
 .items {
@@ -262,6 +261,7 @@ section {
 .items div {
   bottom: var(--u-medium);
   position: absolute;
+  right: var(--u-default);
 }
 
 
