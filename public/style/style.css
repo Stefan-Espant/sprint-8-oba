@@ -28,7 +28,9 @@
     --w-full: 100%;
 
     /* kleuren */
-    --c-primary: #f00;
+    --c-primary-150: #600;
+    --c-primary-100: #f00;
+    --c-primary-50: #fcd9d9;
     --c-default: #fff;
     --c-accent-50: #e1e1e1;
     --c-accent-100: #999;
@@ -37,7 +39,7 @@
 }
 
 ::selection {
-  background-color: var(--c-primary);
+  background-color: var(--c-primary-100);
   color: var(--c-default);
 }
 
@@ -80,7 +82,7 @@ header nav {
 header .logo {
   width: auto;
   height: 2em;
-  fill: var(--c-primary)
+  fill: var(--c-primary-100);
 }
 
 svg {
@@ -149,6 +151,19 @@ input:focus-visible {
   outline: none;
 }
 
+/* List */
+ul {
+  width: fit-content;
+  border-radius: var(--u-small);
+  padding: var(--u-medium);
+  margin-bottom: var(--u-default);
+}
+
+li {
+  color: var(--c-accent-100);
+  list-style: none;
+}
+
 /* Interactieve elementen */
 
 a {
@@ -165,11 +180,11 @@ a svg {
 }
 
 a:hover {
-  color: var(--c-primary);
+  color: var(--c-primary-100);
 }
 
 a:hover svg {
-  fill: var(--c-primary);
+  fill: var(--c-primary-100);
 }
 
 button {
@@ -189,11 +204,11 @@ button svg {
 }
 
 button:hover {
-  color: var(--c-primary);
+  color: var(--c-primary-100);
 }
 
 button:hover svg {
-  fill: var(--c-primary);
+  fill: var(--c-primary-100);
 }
 
 /* lay-out */
@@ -208,13 +223,16 @@ section {
 }
 
 .item-view {
-  width: 90vw;
-  display: flex;
+  width: fit-content;
+  display: block;
+  gap: var(--u-large);
+  margin: auto;
 }
 
 .item-view img {
-  width: 12em;
-  aspect-ratio: 1/1;
+  width: 15em;
+  margin-bottom: var(--u-default);
+  
 }
 
 .items {
@@ -252,5 +270,11 @@ section {
 @media (min-width: 30em) {
   header nav {
     width: fit-content;
+  }
+}
+
+@media (min-width: 37.5em) {
+  .item-view {
+    display: flex;
   }
 }

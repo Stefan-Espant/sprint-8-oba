@@ -2,7 +2,8 @@
 import express from "express";
 
 // Initialiseert de URL
-const url = "https://zoeken.oba.nl/api/v1";
+const url = "https://zoeken.oba.nl/api/v1"
+const urlKey = "/search/?q=boek&authorization=1e19898c87464e239192c8bfe422f280&refine=true&output=json";
 
 // Maakt een nieuwe express app
 const app = express();
@@ -14,11 +15,10 @@ app.use(express.static("public"));
 
 // Maakt een route voor de index
 app.get("/", (request, response) => {
-  let BooksUrl =
-    url +
-    "/search/?q=boek&authorization=1e19898c87464e239192c8bfe422f280&refine=true&output=json";
+  let booksUrl =
+    url + urlKey
 
-  fetchJson(BooksUrl).then((data) => {
+  fetchJson(booksUrl).then((data) => {
     response.render("index", data);
     console.log(data);
   });
@@ -32,6 +32,12 @@ app.get('/book', (request, response) => {
     response.render('book', data)
   })
 })
+
+// Filtert het "=" teken uit de ouput van de API
+let isbn = "";
+let isbnFixed = isbn.substring(1);
+console.log(isbnFixed);
+
 
 // Stelt het poortnummer in waar express op gaat luisteren
 app.set("port", process.env.PORT || 8000);
