@@ -1,5 +1,5 @@
 // Importeert express uit de node_modules map
-import express from 'express';
+import express, { request, response } from 'express';
 
 // Opdeling de URL
 const url = 'https://zoeken.oba.nl/api/v1/search/'
@@ -16,9 +16,9 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(express.static('public'));
 
-// Maakt een route voor de index
+// Maakt een route voor de overzichtspagina
 app.get('/', (request, response) => {
-  let booksUrl = url + urlSearch + urlKey + urlOutput
+  const booksUrl = url + urlSearch + urlKey + urlOutput
 
   fetchJson(booksUrl).then((data) => {
     response.render('index', data);
@@ -26,8 +26,11 @@ app.get('/', (request, response) => {
   });
 });
 
+// Maakt een route voor de detailpagina
 app.get('/book', (request, response) => {
-  let resultUrl = url + urlSearch + urlKey + urlOutput;
+  let bookIsbn = request.query.result || '?q=9789045120942'
+  const resultUrl = url + bookIsbn + urlKey + urlOutput;
+
   fetchJson(resultUrl).then((data) => {
     response.render('book', data);
   });
