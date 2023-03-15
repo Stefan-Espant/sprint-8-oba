@@ -27,13 +27,17 @@ include('./partials/header') %>
 	</section>
 
 	<section class="items">
+    <%# Laad de resultaten in en genereert diverse articles met content %>
 		<% results.forEach(result => { %>
 		<article>
+          <%# Laad de eerste afbeelding met een titel als alternatieve tekst %>
 			<img
 				src=" <%= result.coverimages %> "
 				alt="<%= result.titles %>"
 			/>
+      <%# Laad de titel van het boek in %>
 			<h2><%= result.titles[0] %></h2>
+      <%# Laad de schrijver van het boek in %>
 			<h3><%= result.authors[0] %></h3>
 			<div>
         <a href="/book?resultIsbn<%= result.isbn %>">bekijk exemplaar</a>

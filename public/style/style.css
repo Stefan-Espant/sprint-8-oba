@@ -235,7 +235,7 @@ section {
 }
 
 .items {
-  width: auto;
+  width: var(--w-full);
   display: inline-flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -267,14 +267,42 @@ section {
 
 /* media queries */
 
+@media (min-width: 18em) {
+  .items {
+    width: min-content;
+    margin: auto;
+  }
+
+}
+
 @media (min-width: 30em) {
   header nav {
     width: fit-content;
   }
 }
 
+@media (min-width: 35em) {
+  .items {
+    width: 31.75em;
+    margin: auto;
+  }
+
+}
+
 @media (min-width: 37.5em) {
   .item-view {
     display: flex;
+  }
+}
+
+@media (min-width: 52em) {
+  .items {
+    width: 52em;
+  }
+}
+
+@media (min-width: 69em) {
+  .items {
+    width: 69em;
   }
 }
