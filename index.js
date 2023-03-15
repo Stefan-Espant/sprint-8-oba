@@ -21,6 +21,7 @@ app.use(express.static("public"));
 
 // Maakt een route voor de overzichtspagina
 app.get("/", (request, response) => {
+
 	fetchJson(booksUrl).then((data) => {
 		response.render("index", data);
 		console.log(data);
