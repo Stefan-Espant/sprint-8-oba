@@ -16,6 +16,10 @@
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+
+Voor de oba koos ik voor de volgende user story om uit te voeren:
+> Als OBA lid wil ik de zoekresultaten kunnen filteren of sorteren, zodat ik gericht kan zoeken naar interessante boeken.
+
 https://teal-clean-ostrich.cyclic.app/
 
 ## Kenmerken
@@ -23,14 +27,25 @@ https://teal-clean-ostrich.cyclic.app/
 
 ## Installatie
 
+
 ## Gebruik
+Voor de bouw van dit platform heb ik gebruik gemaakt van diverse tools en technologieën.
+* [Node](#node)
+* [EJS](#ejs)
+* [css](#css)
+
+### node
+
+### ejs
+
+### css
 
 ## Bronnen
 [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 https://zoeken.oba.nl/api/v1/search
 
-https://www.cssmatic.com/box-shadow
+
 
 ## Licentie
 
