@@ -138,12 +138,18 @@ Met css heb ik veel van de vormgeving mogelijk gemaakt. Hierbij heb ik gebruik g
 ## Installatie
 Dit project bevat uiteraard nodeJS en is voor de ontwikkelaar die ermee aan de slag gaat alsvolgt te gebruiken:
 1. Installeer eerst de meest aanbevolen versie van node
-2. Richt de mappenstructuur van deze 
+2. Fork deze repository en richt de mappenstructuur in.
+3. Open de terminal in Visual Studio Code en voer het commando `npm init` uit.
+4. Zodra node is gevonden kan door middel van `npm install` de mappenstructuur worden geïnstalleerd.
+5. Het lokaal testen kan met behulp van `npm start` worden uitgevoerd.
 
 ## Gebruik
+Dit project kunnen boeken worden gevonden en worden bekeken waar het over gaat.  
 
+<img width="1440" alt="Schermafbeelding 2023-03-16 om 13 33 20" src="https://user-images.githubusercontent.com/89298385/225618260-8bdcbd1f-e12a-40c4-9a96-c36015d3cea9.png">
 
 ## Bronnen
+
 [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 https://zoeken.oba.nl/api/v1/search
