@@ -158,6 +158,8 @@ Dit project kunnen boeken worden gevonden en worden bekeken waar het over gaat.
 
 https://zoeken.oba.nl/api/v1/search
 
+https://github.com/ju5tu5/server-side-rendering
+
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
