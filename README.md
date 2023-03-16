@@ -21,6 +21,9 @@
 Voor de oba koos ik voor de volgende user story om uit te voeren:
 > Als OBA lid wil ik de zoekresultaten kunnen filteren of sorteren, zodat ik gericht kan zoeken naar interessante boeken.
 
+Na het bouwen heb ik onbewust ook deze user story uitgevoerd:
+> Als OBA lid wil ik na het zoeken details van een boek kunnen bekijken, om te beoordelen of ik het boek wil lezen.
+
 https://teal-clean-ostrich.cyclic.app/
 
 ## Kenmerken
