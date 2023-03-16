@@ -1,4 +1,5 @@
-<img width="1440" alt="Schermafbeelding 2023-03-12 om 22 27 43" src="https://user-images.githubusercontent.com/89298385/224574775-39fb4876-a248-4030-a715-4d97a36fb2bc.png">
+<img width="1440" alt="Schermafbeelding 2023-03-16 om 13 36 04" src="https://user-images.githubusercontent.com/89298385/225618880-1cd2cbc4-8a71-4bd4-a7c7-5d789f246df1.png">
+
 
 # Dynamisch platform mijn oba 
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
