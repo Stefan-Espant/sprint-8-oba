@@ -24,11 +24,6 @@ https://teal-clean-ostrich.cyclic.app/
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-
-## Installatie
-
-
-## Gebruik
 Voor de bouw van dit platform heb ik gebruik gemaakt van diverse tools en technologieën.
 * [Node](#node)
 * [ejs](#ejs)
@@ -139,6 +134,14 @@ Met css heb ik veel van de vormgeving mogelijk gemaakt. Hierbij heb ik gebruik g
     --c-invert: #111;
 }
 ```
+
+## Installatie
+Dit project bevat uiteraard nodeJS en is voor de ontwikkelaar die ermee aan de slag gaat alsvolgt te gebruiken:
+1. Installeer eerst de meest aanbevolen versie van node
+2. Richt de mappenstructuur van deze 
+
+## Gebruik
+
 
 ## Bronnen
 [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
