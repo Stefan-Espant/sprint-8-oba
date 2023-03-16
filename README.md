@@ -156,9 +156,10 @@ Dit project kunnen boeken worden gevonden en worden bekeken waar het over gaat.
 
 [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-https://zoeken.oba.nl/api/v1/search
+[Voorbeeld code Justus](https://github.com/ju5tu5/server-side-rendering)
 
-https://github.com/ju5tu5/server-side-rendering
+[REST API OBA](https://zoeken.oba.nl/api/v1/search)
+
 
 ## Licentie
 
