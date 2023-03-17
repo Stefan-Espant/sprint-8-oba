@@ -48,6 +48,19 @@ app.get("/", (request, response) => {
 });
 ```
 
+Ook heb ik custom proprties in node toegepast:
+
+```js
+// Opdeling de URL
+const url = "https://zoeken.oba.nl/api/v1/search/";
+const urlSearch = "?q=";
+const urlDefault = "boek";
+const urlKey =
+const urlOutput = "&refine=true&output=json";
+const booksUrl =
+	url + urlSearch + urlDefault + urlKey + urlOutput;
+```
+
 ### ejs
 Om content toe te voegen aan mijn site, heb ik gebruik gemaakt van `ejs` om zo data te laden uit de API en functies werkend te maken met node.  
 Zo heb ik dat toegepast op de twee pagina's 
